@@ -1,0 +1,7 @@
+This SQL project explores the Chinook database to analyze customer information, sales transactions, and business performance.
+The goal is to use SQL queries to identify trends, examine sales data, and gain insights into customer purchasing behavior.
+
+#1. 
+Select CustomerId, FirstName, LastName, Country
+FROM customers
+Where Country <> 'USA';
